@@ -1,8 +1,8 @@
 // self-executing anonymous function to prevent any of this code
-// from conflicting with chart2.js, chart3.js etc.
+// from conflicting with bubble-chart.js, chart3.js etc.
 
 (function () {
-  var svg = d3.select("#chart1");
+  var svg = d3.select("#line-chart");
   var margin = {top: 20, right: 20, bottom: 30, left: 50};
   var width = +svg.attr("width") - margin.left - margin.right;
   var height = +svg.attr("height") - margin.top - margin.bottom;

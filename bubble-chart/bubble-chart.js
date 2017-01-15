@@ -1,4 +1,4 @@
-var svg = d3.select("#chart2"),
+var svg = d3.select("#bubble-chart"),
     width = +svg.attr("width");
 
 var format = d3.format(",d");
