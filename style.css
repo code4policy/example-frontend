@@ -36,7 +36,9 @@ h1#title {
 }
 
 #mainQuote {
-    color:black;
+    color: gray;
+    font-weight: bold;
+
 }
 
 #mainQuote:before {
@@ -48,7 +50,7 @@ h1#title {
   vertical-align: -0.4em;
 }
 #mainQuote p {
-  display: inline;
+  display: inline;  
 }
 
 
@@ -57,7 +59,7 @@ img {
   margin: 0 auto;
 }
 
-.chartdiv h3 , h2, svg {
+.chartdiv h2,h3,p,a {
   color: gray;
   margin: 0;
   padding: 0;
