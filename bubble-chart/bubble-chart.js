@@ -10,7 +10,6 @@ var pack = d3.pack()
     .padding(1.5);
 
 d3.csv("https://raw.githubusercontent.com/dmil/example-backend/master/bubble-chart/data.csv", function(d) {
-  console.log(d)
   d.value = +d.value;
   if (d.value) return d;
 }, function(error, classes) {
