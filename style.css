@@ -1,0 +1,64 @@
+p {
+    color: black;
+    width: 500px;
+}
+
+html {
+  background-color: #6E86D6;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #D3D3D3;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+}
+
+h1#title {
+    color:green;
+}
+
+.quote{
+  background: #D3D3D3;
+  border-left: 10px solid #6E86D6;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: gray;
+
+}
+
+#mainQuote {
+    color:black;
+}
+
+#mainQuote:before {
+  color: #6E86D6;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#mainQuote p {
+  display: inline;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.chartdiv h3 , h2, svg {
+  color: gray;
+  margin: 0;
+  padding: 0;
+}

@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>All the charts. All of them.</title>
+  <head>
+    <meta charset="utf-8">
+    <title>All the charts. All of them.</title>
 
-  <!-- stylesheets at the end of the head -->
-  <link rel="stylesheet" href="line-chart/chart1.css" media="screen">
-  <link rel="stylesheet" href="bubble-chart/chart2.css" media="screen">
-</head>
+    <!-- stylesheets at the end of the head -->
+    <link rel="stylesheet" href="line-chart/chart1.css" media="screen">
+    <link rel="stylesheet" href="bubble-chart/chart2.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 
-<body>
-  <h1>Our Millitary is too Big.</h1>
+  <body>
+    <h1>Our Millitary is Big!</h1>
 
-  <!-- Chart 1 -->
-  <h2>Defense spending is going way up!</h2>
-  <h3> This is a big issue </h3>
-  <svg id="chart1" width="960" height="500"></svg>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 
-  <!-- Chart 2 -->
-  <h2>Its such a big part of the budget!</h2>
-  <h3> Especially when compared to other things. </h3>
-  <svg id="chart2" width="960" height="880"></svg>
+    <p id="mainQuote" class="quote">Lorem ipsum dolor sit amet, ad vix tempor ignota suscipit, reque vocibus id usu, eum ut elit pertinacia definitiones. </p>
 
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 
-  <!-- javascripts at the end of the body -->
-  <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Chart 1 -->
+    <div class="chartdiv">
+    <h2>Defense spending is going way up!</h2>
+    <h3> This is a big issue </h3>
+    <svg id="chart1" width="600" height="500"></svg>
+    </div>
 
-  <script type="text/csv" src="https://raw.githubusercontent.com/dmil/example-backend/master/line-chart/data.tsv"></script>
-  <script src="line-chart/chart1.js"></script>
-  <script src="bubble-chart/chart2.js"></script>
-</body>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+    <p class="quote">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. <br/><br/> - General Egghead (Smart Millitary Manifesto 2012) </p>
+
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+    <!-- Chart 2 -->
+    <div class="chartdiv">
+      <h2>Its such a big part of the budget!</h2>
+      <h3> Especially when compared to other things. </h3>
+      <svg id="chart2" width="600" height="600"></svg>
+    </div>
+
+    <ul>
+     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+     <li>Aliquam tincidunt mauris eu risus.</li>
+     <li>Vestibulum auctor dapibus neque.</li>
+    </ul>
+
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+         
+    <!-- javascripts at the end of the body -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <script type="text/csv" src="https://raw.githubusercontent.com/dmil/example-backend/master/line-chart/data.tsv"></script>
+    <script src="line-chart/chart1.js"></script>
+    <script src="bubble-chart/chart2.js"></script>
+  </body>
 </html>
