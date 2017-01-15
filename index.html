@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>All the charts. All of them.</title>
+
+  <!-- stylesheets at the end of the head -->
+  <link rel="stylesheet" href="line-chart/chart1.css" media="screen">
+  <link rel="stylesheet" href="bubble-chart/chart2.css" media="screen">
+</head>
+
+<body>
+  <h1>Our Millitary is too Big.</h1>
+
+  <!-- Chart 1 -->
+  <h2>Defense spending is going way up!</h2>
+  <h3> This is a big issue </h3>
+  <svg id="chart1" width="960" height="500"></svg>
+
+  <!-- Chart 2 -->
+  <h2>Its such a big part of the budget!</h2>
+  <h3> Especially when compared to other things. </h3>
+  <svg id="chart2" width="960" height="880"></svg>
+
+
+  <!-- javascripts at the end of the body -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <script type="text/csv" src="https://raw.githubusercontent.com/dmil/example-backend/master/line-chart/data.tsv"></script>
+  <script src="line-chart/chart1.js"></script>
+  <script src="bubble-chart/chart2.js"></script>
+</body>
+</html>
