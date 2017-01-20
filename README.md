@@ -10,4 +10,6 @@ Front End https://github.com/dmil/example-frontend
 
 ## See Below for Multi-Page Style
 
-Front End Example 2 https://dmil.github.io/example-frontend-2/
+Front End Example 2 
+* github: https://github.com/dmil/example-frontend-2
+* website: https://dmil.github.io/example-frontend-2/
